@@ -33,6 +33,7 @@ public class JdbcVentasDatabaseService implements VentasDatabaseService {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
     }
 
     @Override
